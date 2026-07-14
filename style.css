@@ -327,4 +327,23 @@ footer a { color: var(--text-white); text-decoration: none; }
     object-position: top;
     border-radius: 22px; 
 }
+/* Stile per i link legali nel Footer */
+.legal-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Distanza tra i due link */
+}
+
+.legal-links a {
+    color: var(--text-muted); /* Usa lo stesso colore opaco del tuo testo */
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+    color: var(--neon-pink); /* Cambia colore quando ci passi sopra con il mouse */
+    text-decoration: underline;
+}
 
